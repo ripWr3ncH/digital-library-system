@@ -22,6 +22,8 @@ class RealEbook implements Ebook {
 		System.out.println("Book: " + book_name + " by " + author);
 		
 	}
+	public void getTitle(){}
+	public void getSize(){}
 }
 
 class DelayEbook implements Ebook {
@@ -47,6 +49,8 @@ class DelayEbook implements Ebook {
 		load();
 		realEbook.display();
 	}
+	public void getTitle(){}
+	public void getSize(){}
 }
 
 class Test {
