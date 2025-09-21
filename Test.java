@@ -1,5 +1,6 @@
 interface Ebook{
 	void display();
+
 }
 
 
