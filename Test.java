@@ -1,6 +1,6 @@
 interface Ebook{
 	void display();
-	void getTitle();
+	void getSize();
 }
 
 
